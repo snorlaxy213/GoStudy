@@ -1,0 +1,16 @@
+POST http://localhost:8080/testWebStruct
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{
+    "id": 3,
+    "name": "tata",
+    "sex": 1
+}
+
+###
+POST http://localhost:8080/testTestUrlParam?url_long=111&url_long=222
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
