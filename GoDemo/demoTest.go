@@ -1,9 +1,9 @@
 package main
 
 import (
-	demo "code.vino/study/demo/demoTest"
+	demo "code.vino/GoStudy/GoDemo/demoTest"
 )
 
 func main() {
-	demo.TraversalString()
+    demo.Map()
 }
