@@ -32,15 +32,15 @@ func processInfo(conn net.Conn) {
 }
 
 func main() {
-	listen_socket, err := net.Listen("tcp", "127.0.0.1:8080")
+	listenSocket, err := net.Listen("tcp", "127.0.0.1:8080")
 	checkError(err)
-	defer listen_socket.Close()
+	defer listenSocket.Close()
 
 	fmt.Println("chat room Server is waiting... ")
 
 	//接收连接
 	for {
-		conn, err := listen_socket.Accept()
+		conn, err := listenSocket.Accept()
 		checkError(err)
 
 		//如果有客户端连接，则打开一个协程处理
