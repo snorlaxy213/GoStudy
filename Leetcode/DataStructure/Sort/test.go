@@ -19,5 +19,11 @@ func main() {
 	fmt.Println(util.IsSorted(util.GenerateRandomArray(10, 0, 100)))
 
 	//Bubble Sort
-	sort.BubbleSort()
+	// sort.BubbleSort()
+
+	//SelectionSort
+	// sort.SelectionSort()
+
+	//InsertionSort
+	sort.InsertionSort()
 }
