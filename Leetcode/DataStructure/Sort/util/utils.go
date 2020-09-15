@@ -50,7 +50,7 @@ func GenerateNearlyOrderedArray(n, swapTimes int) []int {
 	return array
 }
 
-// isSorted 判断是否正序
+// IsSorted 判断是否正序
 func IsSorted(list []int) bool {
 	len := len(list)
 	for i := 0; i < len; i++ {
